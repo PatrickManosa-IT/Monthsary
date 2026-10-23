@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#100b12">
+    <meta name="description" content="A little website made to celebrate our anniversary.">
+    <title>Our Anniversary | A Story of Us</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="stars" id="stars" aria-hidden="true"></div>
+
+    <header class="navbar">
+        <a href="#home" class="brand">
+            <span class="brand-heart">♥</span> OUR LITTLE WORLD
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#story">Our Story</a>
+            <a href="#memories">Memories</a>
+            <a href="#letter">A Letter</a>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            <span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="hero-content reveal">
+                <span class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    ANOTHER CHAPTER OF US
+                    <span class="eyebrow-line"></span>
+                </span>
+
+                <p class="hero-pretitle">To my favorite person,</p>
+
+                <h1>Every love story<br>
+                    is beautiful, but <em>ours</em><br>
+                    is my favorite.
+                </h1>
+
+                <p class="hero-description">
+                    Through every little moment, every laugh,
+                    and every memory, I'm grateful that our paths crossed.
+                </p>
+
+                <a href="#story" class="primary-button">
+                    Explore our story <span>↘</span>
+                </a>
+
+                <div class="hero-note">
+                    <span class="pulse-dot"></span>
+                    A little website, made with love.
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="hero-heart">
+                    <span>♥</span>
+                </div>
+
+                <div class="floating-note note-one">you + me</div>
+                <div class="floating-note note-two">♡ forever grateful</div>
+
+                <div class="hero-caption">
+                    <span>CHAPTER ONE</span>
+                    <span>THE BEGINNING OF US</span>
+                </div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>SCROLL TO DISCOVER</span>
+                <span class="scroll-line"></span>
+            </div>
+        </section>
+
+        <section class="counter-section section" id="story">
+            <div class="section-heading reveal">
+                <span class="eyebrow">TIME WELL SPENT</span>
+                <h2>Look how far <em>we've come.</em></h2>
+                <p>Every second is another little piece of our story.</p>
+            </div>
+
+            <div class="counter-card reveal">
+                <div class="counter-intro">
+                    <span class="tiny-heart">♥</span>
+                    <p>OUR STORY BEGAN ON</p>
+                    <h3 id="startDateLabel">Our special day</h3>
+                </div>
+
+                <div class="counter-grid">
+                    <div class="counter-item">
+                        <span class="counter-number" id="days">000</span>
+                        <span class="counter-label">DAYS</span>
+                    </div>
+                    <div class="counter-item">
+                        <span class="counter-number" id="hours">00</span>
+                        <span class="counter-label">HOURS</span>
+                    </div>
+                    <div class="counter-item">
+                        <span class="counter-number" id="minutes">00</span>
+                        <span class="counter-label">MINUTES</span>
+                    </div>
+                    <div class="counter-item">
+                        <span class="counter-number" id="seconds">00</span>
+                        <span class="counter-label">SECONDS</span>
+                    </div>
+                </div>
+
+                <p class="counter-footer">
+                    And still, there are so many memories left to make. ♡
+                </p>
+            </div>
+        </section>
+
+        <section class="story-section section">
+            <div class="section-heading reveal">
+                <span class="eyebrow">THE LITTLE THINGS</span>
+                <h2>Our story, <em>in moments.</em></h2>
+                <p>Not every moment needs a photograph to be unforgettable.</p>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item reveal">
+                    <span class="timeline-number">01</span>
+                    <div class="timeline-content">
+                        <span class="timeline-date">THE BEGINNING</span>
+                        <h3>When our worlds met</h3>
+                        <p>
+                            Somewhere between a hello and a thousand conversations,
+                            something beautiful began.
+                        </p>
+                    </div>
+                    <span class="timeline-heart">♡</span>
+                </article>
+
+                <article class="timeline-item reveal">
+                    <span class="timeline-number">02</span>
+                    <div class="timeline-content">
+                        <span class="timeline-date">THE LITTLE THINGS</span>
+                        <h3>Our everyday kind of magic</h3>
+                        <p>
+                            The random conversations, shared jokes, little surprises,
+                            and ordinary days that became special.
+                        </p>
+                    </div>
+                    <span class="timeline-heart">♡</span>
+                </article>
+
+                <article class="timeline-item reveal">
+                    <span class="timeline-number">03</span>
+                    <div class="timeline-content">
+                        <span class="timeline-date">TODAY & BEYOND</span>
+                        <h3>Still choosing to grow</h3>
+                        <p>
+                            Learning together, supporting each other, and making
+                            more room for the memories still waiting for us.
+                        </p>
+                    </div>
+                    <span class="timeline-heart">♡</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="memories-section section" id="memories">
+            <div class="section-heading reveal">
+                <span class="eyebrow">KEEPSAKES</span>
+                <h2>A gallery of <em>us.</em></h2>
+                <p>Little snapshots of a story worth remembering.</p>
+            </div>
+
+            <div class="memory-grid">
+                    <figure class="memory-card memory-tall reveal">
+                        <img src="images/1.jpg" alt="Our first memory">
+                        <figcaption>
+                            <span>01 / OUR BEGINNING</span>
+                            <p>The beginning of us.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/2.jpg" alt="Our favorite memory">
+                        <figcaption>
+                            <span>02 / MY FAVORITE</span>
+                            <p>A moment worth keeping.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/3.jpg" alt="A special day together">
+                        <figcaption>
+                            <span>03 / SPECIAL DAYS</span>
+                            <p>Days I won't forget.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/4.jpg" alt="A happy memory">
+                        <figcaption>
+                            <span>04 / HAPPY MOMENTS</span>
+                            <p>Your smile, my favorite view.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/5.jpg" alt="A beautiful day together">
+                        <figcaption>
+                            <span>05 / LITTLE THINGS</span>
+                            <p>Simple moments, big feelings.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/6.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>06 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/7.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>07 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/8.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>08 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/9.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>09 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/10.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>10 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/11.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>11 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/12.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>12 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/13.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>13 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/14.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>14 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/15.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>15 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/16.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>16 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/17.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>17 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/18.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>18 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/19.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>19 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="memory-card reveal">
+                        <img src="images/20.jpg" alt="Another memory together">
+                        <figcaption>
+                            <span>20 / ALWAYS US</span>
+                            <p>More memories to come.</p>
+                        </figcaption>
+                    </figure>
+            </div>
+
+            <p class="gallery-note">
+                Replace these sample photos with your own favorite memories.
+            </p>
+        </section>
+
+        <section class="letter-section section" id="letter">
+            <div class="letter-card reveal">
+                <div class="letter-decoration">✳</div>
+                <span class="eyebrow">A FEW WORDS FROM THE HEART</span>
+                <h2>To my favorite <em>person.</em></h2>
+
+                <p class="letter-preview">
+                    If I could keep one thing from every day, it would be
+                    the little moments that remind me how lucky I am to know you.
+                </p>
+
+                <button class="primary-button" id="openLetter">
+                    Open my letter <span>♡</span>
+                </button>
+
+                <p class="letter-signature">With love, always.</p>
+            </div>
+        </section>
+
+        <section class="closing-section section reveal">
+            <span class="closing-heart">♥</span>
+            <p class="eyebrow">ONE DAY AT A TIME</p>
+            <h2>Here's to us, and<br>all that's <em>yet to come.</em></h2>
+            <p>Happy Anniversary, my favorite person.</p>
+            <a href="#home" class="text-link">Back to the beginning ↑</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span>MADE WITH ♥ AND A LITTLE BIT OF MAGIC</span>
+        <span>OUR LITTLE WORLD © <span id="year"></span></span>
+    </footer>
+
+    <dialog class="letter-dialog" id="letterDialog">
+        <button class="close-dialog" id="closeLetter"
+                aria-label="Close letter">×</button>
+
+        <div class="dialog-content">
+            <span class="eyebrow">JUST FOR YOU</span>
+            <div class="dialog-heart">♥</div>
+            <h2>Dear <span id="letterName">my favorite person</span>,</h2>
+
+            <div class="full-letter" id="fullLetter">
+                <p>
+                    Happy Anniversary! I just want to take this moment to
+                    say how thankful I am for the memories we have made.
+                </p>
+                <p>
+                    Thank you for the laughter, the little conversations,
+                    the support, and the moments that make ordinary days
+                    feel a little more special.
+                </p>
+                <p>
+                    We may not have everything figured out, but I hope we
+                    continue to learn, grow, communicate, and celebrate
+                    the little things together.
+                </p>
+                <p>
+                    Here's to more memories, more reasons to smile, and
+                    more beautiful chapters ahead.
+                </p>
+                <p class="letter-ending">Happy Anniversary. ♡</p>
+            </div>
+
+            <p class="dialog-signature">With love, always.</p>
+        </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    
+    <audio id="backgroundMusic" autoplay loop preload="auto">
+        <source src="music/kalapastangan.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- FULL-SIZE PHOTO VIEWER -->
+    <dialog id="photoViewer" class="photo-viewer">
+        <button
+            type="button"
+            id="closePhotoViewer"
+            class="photo-viewer-close"
+            aria-label="Close photo"
+        >×</button>
+
+        <img id="fullSizePhoto" src="" alt="Our memory">
+
+        <p id="photoCaption"></p>
+    </dialog>
+</body>
+</html>
